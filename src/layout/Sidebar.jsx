@@ -11,8 +11,8 @@ function Sidebar() {
   const toggleMenu = (menu) => setOpenMenu(openMenu === menu ? null : menu);
 
   return (
-    <div className="bg-white text-blue-900 flex-1 flex p-6 w-full h-screen">
-      <div className="max-h-130 ">
+    <div className="bg-white text-blue-900 flex p-6 w-full h-screen">
+      <div className="max-h-130">
         <div
           className={`{transition-all duration-300 overflow-y-auto ease-in-out 
 bg-white}`}
@@ -29,17 +29,20 @@ bg-white}`}
               <LayoutGrid size={18} />
               <span className="font-semibold ">Dashboard</span>
             </Link>
+
+
+         
             <li>
               <button
                 onClick={() => toggleMenu("Components")}
-                 className={`flex gap-2 flex-row items-center hover:bg-gray-100 p-2 rounded font-semibold justify-between space-x-18 w-full ${
+                 className={`flex gap-2 flex-row items-center hover:bg-gray-100 p-2 rounded font-semibold justify-between space-x-22 w-full ${
                 location.pathname ===  "/alert"
                   ? "bg-gray-100 text-blue-600 font-semibold"
                   : "text-blue-900"
               }`}
               >
                 <span className="flex flex-row gap-2 items-center">
-                  <BsMenuButtonWide size={18} />{" "}
+                  <BsMenuButtonWide size={18} />
                   <span className="font-semibold ">Components</span>
                 </span>
 

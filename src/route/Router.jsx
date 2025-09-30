@@ -38,6 +38,7 @@ import Formlayouts from '../pages/Formlayouts'
 import Validations from '../pages/Validations'
 import Help from '../pages/Help'
 import Myprofile from '../pages/Myprofile'
+import Layoutpage from '../layout/Layoutpage'
 
 
  function Router() {
@@ -45,7 +46,7 @@ import Myprofile from '../pages/Myprofile'
    
       <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Navbar/>}>
+        <Route path="/" element={<Layoutpage/>}>
         <Route index element={<Dashboard/>}/>
         <Route path='/contact' element={<Contacts/>}/>
         <Route path='/chart' element={<Chart/>}/>

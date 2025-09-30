@@ -129,7 +129,7 @@ const NAVBAR_HEIGHT = 64;
      {sidebarOpen && (
       <div className='bg-white py-4 overflow-y-auto top-10 bottom-0 fixed left-0 w-75'><Sidebar/></div>
      )}
-     <div className='flex-1 overflow-y-auto p-6 ml-70 bg-blue-400'>
+     <div className='flex-1 overflow-y-auto p-6 ml-70 bg-white'>
       <Outlet/>
      </div>
     </div>

@@ -6,9 +6,11 @@ import {
   PolarAngleAxis,
   PolarRadiusAxis,
   ResponsiveContainer,
-  Legend,  
+  Legend,
+  Tooltip,
 } from "recharts";
-import { motion } from "framer-motion";
+import { motion as DeviceMotion } from "framer-motion";
+import { BsThreeDots } from 'react-icons/bs'
 import Threedotmenu from "./Threedotmenu";
 
  function Recharts() {
@@ -32,7 +34,7 @@ import Threedotmenu from "./Threedotmenu";
 
   //  Animated Dot Component (Hover Effect)
   const AnimatedDot = ({ cx, cy, stroke }) => (
-    <motion.circle
+    <DeviceMotion.circle
       cx={cx}
       cy={cy}
       r={4}

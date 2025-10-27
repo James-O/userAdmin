@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { BsFillCaretDownFill, BsFillCaretUpFill, BsThreeDots } from "react-icons/bs";
 import Threedotmenu from "./Threedotmenu";
 

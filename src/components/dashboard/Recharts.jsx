@@ -6,11 +6,9 @@ import {
   PolarAngleAxis,
   PolarRadiusAxis,
   ResponsiveContainer,
-  Legend,
-  Tooltip,
+  Legend,  
 } from "recharts";
-import { motion, AnimatePresence } from "framer-motion";
-import { BsThreeDots } from 'react-icons/bs'
+import { motion } from "framer-motion";
 import Threedotmenu from "./Threedotmenu";
 
  function Recharts() {

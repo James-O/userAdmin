@@ -113,5 +113,6 @@ const COLORS = ["#3b82f6", "#84cc16", "#475569", "#f97316", "#0ea5e9"];
     
     </div>
   )
+
 }
 export default Webtraffic

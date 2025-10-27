@@ -1,6 +1,6 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState } from "react";
 import Chart from "react-apexcharts";
-import { Link } from "react-router-dom";
+
 import {
   BsCart,
   BsCurrencyDollar,
@@ -96,15 +96,6 @@ function Dashboardss() {
     },
   };
 
-  const [selected, setSelected] = useState("5");
-  const [isOpen, setIsOpen] = useState(false);
-
-  const sections = ["5", "10", "15", "20", "All"];
-
-  const handleSelect = (section) => {
-    setSelected(section);
-    setIsOpen(false);
-  };
 
   return (
     <div className="pb-15 w-full overflow-y-auto" id="dashboard">

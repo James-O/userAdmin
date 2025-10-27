@@ -15,7 +15,7 @@ function Sidebar() {
       <div className="max-h-130">
         <div
           className={`{transition-all duration-300 overflow-y-auto ease-in-out 
-bg-white}`}
+         bg-white}`}
         >
           <ul className="space-y-2">
             <Link
@@ -678,7 +678,7 @@ bg-white}`}
 
               <Link
               to="/blank"
-              className={`flex gap-2 flex-row items-center hover:bg-gray-100 p-2 rounded font-semibold ${
+              className={`flex gap-2 flex-row items-center hover:bg-gray-100 p-2 pb-24 rounded font-semibold ${
                 location.pathname === "/blank"
                   ? "bg-gray-100 text-blue-600 font-semibold"
                   : "text-blue-900"
